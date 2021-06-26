@@ -37,15 +37,28 @@
   background-color: #4d1601;
   border-radius: 25px;
   font-weight: bold;
+  margin-right: 4px;
 }
 
 .github {
-  font-size: 30px;
+  font-size: 1rem;
   margin-right: 5px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .link {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .source {
+    padding: 5px 10px;
+  }
+  .github {
+    font-size: 20px;
+  }
+  .link {
+    font-size: 10px;
+  }
 }
