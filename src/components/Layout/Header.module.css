@@ -27,3 +27,25 @@
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+.source {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0.75rem 3rem;
+  background-color: #4d1601;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.github {
+  font-size: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}

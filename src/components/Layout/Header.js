@@ -10,6 +10,18 @@ function Header(props) {
     <React.Fragment>
       <header className={classes.header}>
         <h2>React Meals</h2>
+        <div className={classes.source}>
+          <a
+            href='https://github.com/baxa29102001/foodOrder'
+            className={classes.link}>
+            <i className={`ri-github-fill ${classes.github}`}></i>
+          </a>
+          <a
+            href='https://github.com/baxa29102001/foodOrder'
+            className={classes.link}>
+            Source code
+          </a>
+        </div>
         <CartButton onClick={ctx.onShow} />
       </header>
       <div className={classes['main-image']}>
